@@ -11,6 +11,11 @@ python3 main.py
 python3 -m unittest discover tests
 ````
 
+## Game Modes
+1. Auto :- The quickest game. Die is rolled automatically, directly see the results of the game.
+2. Auto-Slowed :- The game goes on like auto mode but each turn is slowed down so that output is each turn is readable.
+3. Manual :- Player must press enter to roll the die for each turn. 
+
 ## Game Rules:
 1. Players roll die and move the given number of steps.
 2. They land on a snake head, ladder start or empty space.
